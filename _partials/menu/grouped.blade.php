@@ -1,6 +1,6 @@
 <div class="menu-group">
     @forelse ($groupedMenuItems as $categoryId => $menuList)
-        <div class="menu-group-item">
+        <div class="menu-group-item"> <span></span>
             @if ($categoryId > 0)
                 @php
                     $menuCategory = array_get($menuListCategories, $categoryId);

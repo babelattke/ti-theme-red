@@ -38,7 +38,7 @@ $theme-colors: map-merge((
 
 // Fonts
 //
-$font-family-sans-serif: "Titillium Web", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: "Raleway", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-monospace: "Droid Sans Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 // Icon
@@ -84,7 +84,7 @@ $navbar-link-color:                     $primary !default;
 $page-padding-top:                      $logo-height + 10px !default;
 
 // Footer
-$footer-bg:                             $dark !default;
+$footer-bg:                             #333333 !default;
 $footer-link-color:                     rgba($white, .75) !default;
 
 // Forms

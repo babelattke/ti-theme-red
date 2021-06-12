@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-top navbar-expand-md fixed-top">
+<nav class="navbar navbar-light navbar-top navbar-expand-md fixed-top panel">
     <div class="container">
         @partial('nav/logo')
         <button

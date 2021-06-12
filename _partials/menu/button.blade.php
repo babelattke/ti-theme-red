@@ -1,5 +1,5 @@
 <button
-    class="btn btn-danger btn-cart{{ $menuItemObject->mealtimeIsNotAvailable ? ' disabled' : '' }} glow-button"
+    class="btn btn-cart{{ $menuItemObject->mealtimeIsNotAvailable ? ' disabled' : '' }} glow-button"
     @if (!$menuItemObject->mealtimeIsNotAvailable)
     @if ($menuItemObject->hasOptions)
     data-cart-control="load-item"

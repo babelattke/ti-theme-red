@@ -7,8 +7,7 @@
                         $menuItem->getThumb()
                         : 
                         uploads_url($this->theme->no_image_category)
-                    }}');
-                    background-repeat: no-repeat;
+                    }}') no-repeat center center;                    
                     background-size: cover;
                     width: {{$menuImageWidth}}px;
                     height: {{$menuImageHeight}}px;

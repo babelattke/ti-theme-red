@@ -28,6 +28,10 @@
     {
       "path": "tastyigniter-red/assets/js/app.js",
       "name": "app-js"
+    },
+    {
+      "path": "tastyigniter-red/assets/js/app-custom.js",
+      "name": "app-custom-js"
     }
   ],
   "bundles": [

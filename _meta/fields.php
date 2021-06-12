@@ -39,7 +39,7 @@ return [
                     'label' => 'Font Family',
                     'type' => 'text',
                     'span' => 'left',
-                    'default' => '"Titillium Web",Arial,sans-serif',
+                    'default' => 'Raleway',
                     'comment' => 'The font family to use for the main body text.',
                     'rules' => 'required',
                     'assetVar' => 'font-family-sans-serif',
@@ -154,7 +154,7 @@ return [
                     'label' => 'Nav font color',
                     'type' => 'colorpicker',
                     'span' => 'right',
-                    'default' => '#FF4900',
+                    'default' => '#F10000',
                     'rules' => 'required',
                     'assetVar' => 'navbar-link-color',
                 ],
@@ -162,7 +162,7 @@ return [
                     'label' => 'Footer background color',
                     'type' => 'colorpicker',
                     'span' => 'left',
-                    'default' => '#64544d',
+                    'default' => '#333333',
                     'rules' => 'required',
                     'assetVar' => 'footer-bg',
                 ],
@@ -201,6 +201,11 @@ return [
                                 'type' => 'text',
                                 'rules' => 'required',
                             ],
+                            'color' => [
+                                'label' => 'Icon Color',
+                                'type' => 'colorpicker',
+                                'rules' => 'required'
+                            ]
                         ],
                     ],
                 ],

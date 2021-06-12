@@ -40,7 +40,16 @@
   margin-bottom: 0;
 
   .menu-group-item {
-    border-top: 1px solid $light;
+    //border-top: 1px solid #DADADA;
+    
+    >span {
+      display: block;
+      width: 50%;
+      height: 1px;
+      background-color: $primary;
+      margin: auto;
+    }
+    
     //padding-left: $card-spacer-x;
     //padding-right: $card-spacer-x;
 
@@ -150,14 +159,52 @@
   height: 30px;
 }
 
+// Glow effect for all the buttons (+js for those that are in components)
 .glow-button {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 5px lighten($primary, 30%);
+  background-color: $primary;
+  border-radius: 5px;  
+}
+
+// Center images Category and Item Modal
+div.menu-category div.image, div.modal-content>div.modal-top {
+  text-align: center;
+}
+
+//Style to Navbar active link
+.nav.navbar-nav .nav-item.active {
+  background-color: $primary;
+  border-radius: 5px;  
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 5px lighten($primary, 30%);
 }
 
+.nav.navbar-nav .nav-item.active a {
+  color: $white;
+  opacity: 1;
+}
 
+// Item modal options background text
+div.menu-option div.option-details {
+  background-color: $white;
+}
 
-// TEST RIBBON
+div.menu-option div.option-details {
+  border-bottom: 1px solid $primary;
+  display: block;  
+  margin: auto;
+}
+
+// Some buttons GUI fix
+.btn-light, .btn-info {
+  border: none !important;
+}
+button.cart-btn {
+  color: $white !important;
+}
+
+// SPECIALS RIBBON
 
 .ribbon {
   $default-right: 10px;
