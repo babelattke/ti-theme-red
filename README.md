@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/babelattke/tastyigniter-green">
-    <img src="https://github.com/babelattke/tastyigniter-red/blob/main/gh-images/ti-red-logo.png?raw=true" alt="Logo" width="280" height="120">
+  <a href="https://github.com/babelattke/tastyigniter-red">
+    <img src="https://github.com/babelattke/ti-theme-red/blob/main/gh-images/ti-red-logo.png?raw=true" alt="Logo" width="280" height="120">
   </a>      
   <h3 align="center">Red Theme for TastyIgniter</h3>  
 </p>
