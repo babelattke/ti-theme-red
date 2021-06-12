@@ -1,0 +1,51 @@
+{
+  "doctype": "html5",
+  "favicon": "tastyigniter-red/assets/images/favicon.ico",
+  "meta": [
+    {
+      "name": "Content-type",
+      "content": "text/html; charset=utf-8",
+      "type": "equiv"
+    },
+    {
+      "name": "X-UA-Compatible",
+      "content": "IE=edge",
+      "type": "equiv"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+      "type": "name"
+    }
+  ],
+  "style": [
+    {
+      "path": "tastyigniter-red/assets/css/app.css",
+      "name": "app-css"
+    }
+  ],
+  "script": [
+    {
+      "path": "tastyigniter-red/assets/js/app.js",
+      "name": "app-js"
+    }
+  ],
+  "bundles": [
+    {
+      "type": "scss",
+      "files": "~/themes/tastyigniter-red/assets/src/scss/app.scss",
+      "destination": "~/themes/tastyigniter-red/assets/css/app.css"
+    },
+    {
+      "type": "js",
+      "files": [
+        "~/app/system/assets/ui/flame.js",
+        "~/themes/tastyigniter-red/assets/src/js/vendor/select2.min.js",
+        "~/themes/tastyigniter-red/assets/src/js/vendor/jquery.raty.js",
+        "~/themes/tastyigniter-red/assets/src/js/vendor/currency.min.js",
+        "~/themes/tastyigniter-red/assets/src/js/app.js"
+      ],
+      "destination": "~/themes/tastyigniter-red/assets/js/app.js"
+    }
+  ]
+}
