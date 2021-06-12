@@ -1,26 +1,23 @@
-Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+<p align="center">
+  <a href="https://github.com/babelattke/tastyigniter-green">
+    <img src="https://github.com/babelattke/tastyigniter-red/blob/main/gh-images/ti-red-logo.png?raw=true" alt="Logo" width="280" height="120">
+  </a>      
+  <h3 align="center">Red Theme for TastyIgniter</h3>  
+</p>
 
-### Required Extensions
-- Igniter Cart
-- Igniter FrontEnd
-- Igniter Local
-- Igniter Pages
-- Igniter Pay Register
-- Igniter Reservation
-- Igniter User
+**Compatibility** 
 
-### Features
-- Responsive design
-- Lightweight and very fast
-- CSS3 animations
-- Bootstrap support
-- Google Maps integration
+| Extension        | Version           | Test Date  |
+| ------------- |:-------------:| -----:|
+| TastyIgniter      | 3.0.4.beta.28 | 11/06/2021 |
+| Cart      | 2.7.0 | 11/06/2021 |
+| Coupons      | 1.5.0 | 11/06/2021 |
+| FrontEnd      | 1.5.0 | 11/06/2021 |
+| Local      | 1.11.1 | 04/01/2021 |
+| StaticPages      | 1.6.0 | 11/06/2021 |
+| Pay Register      | 1.5.0 | 11/06/2021 |
+| User      | 1.5.5 | 11/06/2021 |
 
-### Documentation
-Full documentation for this theme can be found on here [Bootstrap 4](https://getbootstrap.com/docs)
+**Demo Images**
 
-#### To update all packages
-Simply run $ npm install in the theme's root folder
-
-### License
-[The MIT License (MIT)](https://tastyigniter.com/licence/)
+Check 'gh-images' folder
