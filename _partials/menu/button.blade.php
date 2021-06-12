@@ -1,5 +1,5 @@
 <button
-    class="btn btn-light btn-sm btn-cart{{ $menuItemObject->mealtimeIsNotAvailable ? ' disabled' : '' }}"
+    class="btn btn-danger btn-cart{{ $menuItemObject->mealtimeIsNotAvailable ? ' disabled' : '' }} glow-button"
     @if (!$menuItemObject->mealtimeIsNotAvailable)
     @if ($menuItemObject->hasOptions)
     data-cart-control="load-item"
@@ -14,5 +14,9 @@
     title="{{ implode("\r\n", $menuItemObject->mealtimeTitles) }}"
     @endif
 >
-    <i class="fa fa-{{ $menuItemObject->mealtimeIsNotAvailable ? 'clock-o' : 'plus' }}"></i>
+@if ($menuItemObject->mealtimeIsNotAvailable)
+<i class="fa fa-clock-o"></i>
+@else
+{!! $menuItemObject->menuPrice > 0 ? currency_format($menuItemObject->menuPrice) : lang('main::lang.text_free') !!}
+@endif
 </button>
